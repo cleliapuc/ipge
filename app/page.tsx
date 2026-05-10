@@ -34,37 +34,37 @@ export default function IPGEExecutiveSummit() {
       time: '17:30',
       title: 'Conceito de Estratégia, Execução & Governança',
       desc: 'Os fundamentos da execução estratégica empresarial.',
-      speaker: 'AGEU BARROS',
+     // speaker: 'AGEU BARROS',
     },
     {
-      time: '17:50',
+      time: '17:45',
       title: 'Budget: Ferramenta #1 de Governança',
       desc: 'A revisão 6+6 como base para decisões executivas.',
-      speaker: 'AGEU BARROS',
+      //speaker: 'AGEU BARROS',
     },
     {
-      time: '18:10',
+      time: '18:00',
       title: 'O Processo Organizacional da Execução',
       desc: 'Como alinhar estratégia, pessoas e projetos.',
-      speaker: 'MALU',
+     // speaker: 'MALU',
     },
     {
-      time: '18:25',
+      time: '18:15',
       title: 'O Conselho e o Processo Decisório',
       desc: 'Como estruturar decisões sólidas e alinhadas ao longo prazo.',
-      speaker: 'FERNANDA',
+      //speaker: 'FERNANDA',
     },
     {
-      time: '18:40',
+      time: '18:30',
       title: 'RH no Suporte Estratégico: Mapertest & Jobfit',
       desc: 'Avaliação de perfil e desenvolvimento de talentos estratégicos.',
-      speaker: 'MALU',
+      //speaker: 'MALU',
     },
     {
-      time: '18:55',
+      time: '18:45',
       title: 'Governança & Valuation',
       desc: 'Como fortalecer crescimento sustentável e valuation crescente.',
-      speaker: 'FERNANDA',
+     // speaker: 'FERNANDA',
     },
   ];
 
@@ -144,7 +144,7 @@ export default function IPGEExecutiveSummit() {
               {/* Quick info cards */}
               <div className="grid grid-cols-3 gap-4 pt-4">
                 {[
-                  { label: 'Data', value: '15 Jun 26', icon: '📅' },
+                  { label: 'Data', value: '15Jun26', icon: '📅' },
                   { label: 'Horário', value: '17h30 às 19h', icon: '🕘' },
                   { label: 'Formato', value: '100% Online', icon: '📡' },
                 ].map((item) => (
@@ -207,7 +207,7 @@ export default function IPGEExecutiveSummit() {
       </section>
 
       {/* SPEAKERS */}
-      <section id="palestrantes" className="py-32 bg-gradient-to-b from-white to-slate-50">
+      <section id="palestrantes" className="py-16 bg-gradient-to-b from-white to-slate-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-20">
             <h2 className="text-5xl font-black text-[#101C3D] tracking-tight mb-4">Especialistas do Webinar</h2>
@@ -237,80 +237,95 @@ export default function IPGEExecutiveSummit() {
       </section>
 
       {/* PROGRAM */}
-      <section id="programacao" className="py-32 bg-gradient-to-b from-slate-50 to-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-5xl font-black text-[#101C3D] mb-20 text-center">Programação Completa</h2>
+{/* PROGRAM */}
+<section id="programacao" className="pb-24 bg-[#F7F8FA] pt-8">
+  <div className="max-w-7xl mx-auto px-6">
+    <h2 className="text-4xl font-black text-[#101C3D] mb-12">PROGRAMAÇÃO</h2>
 
-          <div className="grid lg:grid-cols-[1.5fr_1fr] gap-12">
-            {/* Timeline */}
-            <div className="space-y-8">
-              {schedule.map((item, i) => (
-                <div key={item.time} className="group cursor-pointer">
-                  <div className="flex gap-6 p-6 rounded-2xl bg-white border-2 border-slate-200 hover:border-[#C79A52] hover:shadow-lg transition-all duration-300">
-                    <div className="flex flex-col items-center flex-shrink-0">
-                      <div className="h-6 w-6 rounded-full bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] shadow-lg"></div>
-                      {i < schedule.length - 1 && <div className="w-1 h-16 bg-gradient-to-b from-[#C79A52] to-transparent mt-2"></div>}
-                    </div>
+    <div className="grid lg:grid-cols-3 gap-8">
 
-                    <div className="flex-1">
-                      <div className="flex items-baseline gap-4 mb-2">
-                        <span className="font-black text-[#C79A52] text-xl min-w-[80px]">{item.time}</span>
-                        <span className="text-xs font-semibold text-white bg-[#08152E] px-3 py-1 rounded-full">{item.speaker}</span>
-                      </div>
-                      <h3 className="font-black text-[#101C3D] text-lg group-hover:text-[#C79A52] transition-colors">{item.title}</h3>
-                      <p className="text-slate-600 mt-2 text-sm leading-relaxed">{item.desc}</p>
-                    </div>
+      {/* TIMELINE - Coluna esquerda */}
+      <div className="lg:col-span-2">
+        <div className="space-y-6">
+          {schedule.map((item, i) => (
+            <div key={item.time} className="group cursor-pointer">
+              <div className="flex gap-6 p-6 rounded-2xl bg-white border-2 border-slate-200 hover:border-[#C79A52] hover:shadow-lg transition-all duration-300">
+                <div className="flex flex-col items-center flex-shrink-0">
+                  <div className="h-6 w-6 rounded-full bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] shadow-lg"></div>
+                  {i < schedule.length - 1 && <div className="w-1 h-16 bg-gradient-to-b from-[#C79A52] to-transparent mt-2"></div>}
+                </div>
+
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-baseline gap-4 mb-2">
+                    <span className="font-black text-[#C79A52] text-lg min-w-[80px]">{item.time}</span>
                   </div>
-                </div>
-              ))}
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6 h-fit sticky top-6">
-              {/* Event Info */}
-              <div className="bg-gradient-to-br from-[#091A37] to-[#0D2550] text-white rounded-3xl p-10 shadow-2xl">
-                <h3 className="text-2xl font-black mb-8">Detalhes do Evento</h3>
-
-                <div className="space-y-8">
-                  {[
-                    { icon: '📅', label: 'Data', value: '15 de Junho, 2026' },
-                    { icon: '⏰', label: 'Duração', value: '1h30 de conteúdo' },
-                    { icon: '📡', label: 'Formato', value: '100% Online' },
-                    { icon: '🔄', label: 'Gravação', value: 'Acesso 30 dias' },
-                  ].map((item) => (
-                    <div key={item.label} className="border-b border-white/10 pb-6 last:border-0 last:pb-0">
-                      <p className="text-3xl mb-2">{item.icon}</p>
-                      <p className="text-white/60 text-xs uppercase tracking-wide font-semibold">{item.label}</p>
-                      <p className="text-white font-bold mt-2">{item.value}</p>
-                    </div>
-                  ))}
+                  <h3 className="font-black text-[#101C3D] text-lg group-hover:text-[#C79A52] transition-colors whitespace-nowrap overflow-hidden text-ellipsis">
+                    {item.title}
+                  </h3>
+                  <p className="text-slate-600 mt-2 text-sm leading-relaxed">{item.desc}</p>
                 </div>
               </div>
-
-              {/* Ticket */}
-              <div className="bg-gradient-to-br from-[#C79A52] to-[#A67C3A] text-white rounded-3xl p-8 shadow-2xl">
-                <p className="text-sm uppercase tracking-wide font-bold opacity-90 mb-2">Ingresso Individual</p>
-                <h3 className="text-5xl font-black mb-6">R$ 97,00</h3>
-                <p className="text-white/80 text-sm mb-6">ou 4x R$ 24,52</p>
-
-                <ul className="space-y-3 mb-8 text-sm">
-                  {['Acesso ao evento ao vivo', 'Materiais exclusivos', 'Gravação 30 dias', 'Certificado digital'].map((item) => (
-                    <li key={item} className="flex items-center gap-2">
-                      <span>✓</span> {item}
-                    </li>
-                  ))}
-                </ul>
-
-                <a href="https://pay.hotmart.com/SEU-LINK-AQUI" target="_blank" className="w-full bg-white text-[#C79A52] font-black py-5 rounded-xl hover:shadow-lg transition-all duration-300 text-center">
-                  GARANTIR VAGA
-                </a>
-
-                <p className="text-center text-white/70 text-xs mt-4">🔒 Pagamento seguro via Hotmart</p>
-              </div>
             </div>
+          ))}
+        </div>
+      </div>
+
+      {/* DETALHES + INGRESSO - Coluna direita */}
+      <div className="lg:col-span-1 space-y-8">
+
+        {/* DETALHES DO EVENTO */}
+        <div className="bg-gradient-to-br from-[#091A37] to-[#0D2550] text-white rounded-3xl p-8 shadow-2xl h-fit">
+          <h3 className="text-2xl font-black leading-tight mb-8">Detalhes do Evento</h3>
+
+          <div className="space-y-6">
+            {[
+              { icon: '📅', label: 'DATA', value: '15 Jun 26' },
+              { icon: '⏰', label: 'DURAÇÃO', value: '1h30' },
+              { icon: '📡', label: 'FORMATO', value: '100% Online' },
+              { icon: '🔄', label: 'GRAVAÇÃO', value: '30 dias' },
+            ].map((item) => (
+              <div key={item.label} className="flex items-start gap-4 pb-6 border-b border-white/10 last:border-0 last:pb-0">
+                <div className="text-4xl flex-shrink-0">{item.icon}</div>
+                <div className="flex-1">
+                  <p className="text-xs uppercase tracking-widest text-white/60 font-bold mb-1">{item.label}</p>
+                  <p className="text-xl font-black">{item.value}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
-      </section>
+
+        {/* INGRESSO INDIVIDUAL */}
+        <div className="bg-gradient-to-br from-[#C79A52] to-[#D8AE6A] rounded-3xl p-8 shadow-2xl">
+          <p className="text-white/90 text-xs font-semibold uppercase tracking-wide mb-3">Ingresso Individual</p>
+
+          <h3 className="text-5xl font-black text-white mb-2">R$ 95,00</h3>
+
+          <p className="text-white/80 mb-6 text-sm">ou 4x R$ 24,52</p>
+
+          <p className="text-white font-bold text-sm mb-6 pb-6 border-b border-white/30">
+            Desconto em grupo: a partir do 2º participante, R$ 45,00
+          </p>
+
+          <ul className="space-y-3 mb-8 text-white text-sm">
+            <li>✓ Acesso ao evento ao vivo</li>
+            <li>✓ Materiais exclusivos</li>
+            <li>✓ Gravação 30 dias</li>
+            <li>✓ Certificado digital</li>
+          </ul>
+
+          <button className="w-full bg-white text-[#C79A52] font-black py-3 rounded-2xl hover:shadow-lg transition-all text-lg">
+            GARANTIR VAGA
+          </button>
+
+          <p className="text-center text-white/70 text-xs mt-4">🔒 Pagamento seguro</p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
 
       {/* REASONS */}
       <section className="py-32 bg-gradient-to-b from-[#08152E] via-[#0F1F3D] to-[#08152E] text-white relative overflow-hidden">
