@@ -404,7 +404,7 @@ export default function IPGEExecutiveSummit() {
           <p className="text-slate-600 text-sm mt-2">Total: R$ 140,00</p>
         </div>
         <button className="w-full bg-[#101C3D] hover:bg-[#0a0f1a] text-white font-black py-4 rounded-2xl transition-all text-lg uppercase tracking-wide">
-          ESCOLHER PLANO
+          GARANTIR VAGAS
         </button>
       </div>
 
@@ -422,7 +422,7 @@ export default function IPGEExecutiveSummit() {
           <p className="text-slate-600 text-sm mt-2">Total: R$ 185,00</p>
         </div>
         <button className="w-full bg-[#101C3D] hover:bg-[#0a0f1a] text-white font-black py-4 rounded-2xl transition-all text-lg uppercase tracking-wide">
-          ESCOLHER PLANO
+          GARANTIR VAGAS
         </button>
       </div>
 
@@ -440,7 +440,7 @@ export default function IPGEExecutiveSummit() {
           <p className="text-slate-600 text-sm mt-2">Total: R$ 230,00</p>
         </div>
         <button className="w-full bg-[#101C3D] hover:bg-[#0a0f1a] text-white font-black py-4 rounded-2xl transition-all text-lg uppercase tracking-wide">
-          ESCOLHER PLANO
+          GARANTIR VAGAS
         </button>
       </div>
 
