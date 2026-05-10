@@ -1,0 +1,560 @@
+export default function IPGEExecutiveSummit() {
+ const speakers = [
+  {
+    name: 'AGEU BARROS',
+    role: 'Diretor IPGE',
+    image: '/palestrantes/ageu.jpg',
+    linkedin: 'https://www.linkedin.com/in/ageu-barros/',
+  },
+  {
+    name: 'FERNANDA',
+    role: 'Advogada | Conselheira | Investidora',
+    image: '/palestrantes/fernanda.jpg',
+    linkedin: 'https://www.linkedin.com/in/eusoufernandaefranco/',
+  },
+  {
+    name: 'MALU',
+    role: 'Especialista em Gestão de Pessoas',
+    image: '/palestrantes/malu.jpg',
+    linkedin: 'https://www.linkedin.com/in/marialuciaprofmba-pessoas/',
+  },
+];
+
+  const schedule = [
+    {
+      time: '17:30',
+      title: 'Conceito de Estratégia, Execução & Governança',
+      desc: 'Os fundamentos da execução estratégica empresarial.',
+    },
+    {
+      time: '17:50',
+      title: 'Budget: Ferramenta #1 de Governança',
+      desc: 'A revisão 6+6 como base para decisões executivas.',
+    },
+    {
+      time: '18:10',
+      title: 'O Processo Organizacional da Execução',
+      desc: 'Como alinhar estratégia, pessoas e projetos.',
+    },
+    {
+      time: '18:25',
+      title: 'O Conselho e o Processo Decisório',
+      desc: 'Como estruturar decisões sólidas e alinhadas ao longo prazo.',
+    },
+    {
+      time: '18:40',
+      title: 'RH no Suporte Estratégico: Mapertest & Jobfit',
+      desc: 'Avaliação de perfil e desenvolvimento de talentos estratégicos.',
+    },
+    {
+      time: '18:55',
+      title: 'Governança & Valuation',
+      desc: 'Como fortalecer crescimento sustentável e valuation crescente.',
+    },
+  ];
+
+  const benefits = [
+    {
+      title: 'NETWORKING QUALIFICADO',
+      desc: 'Conecte-se com líderes e profissionais de todo o Brasil.',
+    },
+    {
+      title: 'CONTEÚDO ESTRATÉGICO',
+      desc: 'Palestras e debates com especialistas de referência.',
+    },
+    {
+      title: 'ACESSO FLEXÍVEL',
+      desc: 'Assista ao vivo e tenha acesso à gravação por 30 dias.',
+    },
+    {
+      title: 'CERTIFICADO DIGITAL',
+      desc: 'Receba seu certificado automaticamente.',
+    },
+  ];
+
+  const reasons = [
+    {
+      title: 'VISÃO ESTRATÉGICA',
+      desc: 'Amplie sua visão e antecipe tendências do mercado.',
+    },
+    {
+      title: 'CONHECIMENTO APLICÁVEL',
+      desc: 'Conteúdo prático para gerar resultados reais.',
+    },
+    {
+      title: 'CONEXÕES VALIOSAS',
+      desc: 'Networking qualificado com líderes e decisores.',
+    },
+    {
+      title: 'PERFORMANCE E CRESCIMENTO',
+      desc: 'Estratégias para impulsionar negócios e carreiras.',
+    },
+    {
+      title: 'GOVERNANÇA E COMPLIANCE',
+      desc: 'Boas práticas para gestão e sustentabilidade.',
+    },
+  ];
+
+  return (
+    <div className="min-h-screen bg-[#F5F6F8] text-[#08152E] overflow-x-hidden">
+      {/* HERO */}
+      <section className="relative bg-[#07152E] overflow-hidden">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(0,132,255,0.25),transparent_35%)]"></div>
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(7,21,46,0.96),rgba(7,21,46,0.65))]"></div>
+
+        <div className="relative z-10 max-w-7xl mx-auto px-6">
+          {/* HEADER */}
+          <header className="flex items-center justify-between py-6 border-b border-white/10">
+            <div className="flex items-center gap-4">
+              <div>
+                <img
+  src="/logo/logo-ipge-fundo_transparente.png"
+  alt="IPGE"
+  className="h-14 w-auto"
+/>
+              </div>
+
+              <div className="h-12 w-px bg-white/20"></div>
+
+              <div>
+                <p className="text-white text-lg font-medium">
+                  Gestão Estratégica
+                </p>
+
+                <p className="text-[11px] tracking-[0.4em] text-white/50 mt-1 uppercase">
+                  Desde 1994
+                </p>
+              </div>
+            </div>
+
+            <nav className="hidden lg:flex items-center gap-10 text-sm text-white/80 font-medium">
+              <a href="#evento" className="hover:text-white transition-all">
+                O EVENTO
+              </a>
+
+              
+              <a
+                href="#palestrantes"
+                className="hover:text-white transition-all"
+              >
+                PALESTRANTES
+              </a>
+
+              <a href="#ingresso" className="hover:text-white transition-all">
+                INGRESSOS
+              </a>
+
+              <a href="#faq" className="hover:text-white transition-all">
+                FAQ
+              </a>
+
+              <a
+                href="https://pay.hotmart.com/SEU-LINK-AQUI"
+                target="_blank"
+                className="bg-[#C79A52] hover:bg-[#D8AE6A] text-white px-6 py-3 rounded-xl transition-all"
+              >
+                GARANTIR MINHA VAGA
+              </a>
+            </nav>
+          </header>
+
+          {/* HERO CONTENT */}
+          <div className="grid lg:grid-cols-[1.2fr_0.8fr] gap-20 items-center py-24">
+            <div>
+              <span className="inline-flex items-center gap-2 text-[#D9AE68] text-sm tracking-wide font-semibold uppercase mb-8">
+                EVENTO ONLINE AO VIVO
+                <span className="h-2 w-2 rounded-full bg-[#D9AE68]"></span>
+              </span>
+<h2 className="text-[34px] lg:text-[38px] xl:text-[42px] font-black leading-[0.9] tracking-[-0.05em] text-white max-w-[900px]">
+  Roadmap do Planejamento Estratégico  2027:
+
+
+  <span className="block text-white/85">
+    É hora de começar
+  </span>
+</h2>
+
+              <p className="text-[22px] text-white/90 leading-relaxed mt-10 max-w-[760px]">
+                Julho é o momento ideal para iniciar o processo de planejamento estratégico e financeiro que vai guiar sua empresa em 2027. E isso começa com uma revisão orçamentaria chamada 6+6, projetando o segundo semestre e fechando o resultado de 2026, que será o ponto de partida para a execução estratégica de 2027.
+              </p>
+
+              <p className="text-white/70 text-[19px] leading-relaxed mt-6 max-w-[760px]">
+                Nessa jornada, você precisará definir seus planos, aprovar investimentos em capital (Capex) e estruturar os projetos que entregarão sua estratégia. Mas como garantir que essas decisões sejam sólidas e alinhadas com a visão de longo prazo? A resposta está em um Conselho Estratégico. Um Conselho bem estruturado funciona como a base da governança que sua empresa precisa.
+              </p>
+
+              <div className="grid md:grid-cols-3 gap-8 mt-12 text-white">
+                <div className="flex gap-4">
+                  <div className="h-12 w-12 rounded-xl border border-white/20 flex items-center justify-center text-2xl">
+                    📅
+                  </div>
+
+                  <div>
+                    <p className="text-sm text-white/50 uppercase tracking-wide">
+                      Data
+                    </p>
+                    <p className="font-medium mt-1">
+                      15Jun26
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="h-12 w-12 rounded-xl border border-white/20 flex items-center justify-center text-2xl">
+                    🕘
+                  </div>
+
+                  <div>
+                    <p className="text-sm text-white/50 uppercase tracking-wide">
+                      Horário
+                    </p>
+                    <p className="font-medium mt-1">17h30 às 19h</p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="h-12 w-12 rounded-xl border border-white/20 flex items-center justify-center text-2xl">
+                    ▶️
+                  </div>
+
+                  <div>
+                    <p className="text-sm text-white/50 uppercase tracking-wide">
+                      Transmissão
+                    </p>
+                    <p className="font-medium mt-1">Online</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex flex-wrap gap-5 mt-14">
+                <a
+                  href="https://pay.hotmart.com/SEU-LINK-AQUI"
+                  target="_blank"
+                  className="bg-[#C79A52] hover:bg-[#D8AE6A] text-white font-bold px-10 py-5 rounded-2xl transition-all shadow-2xl"
+                >
+                  GARANTIR MINHA VAGA
+                </a>
+
+                <a
+                  href="#programacao"
+                  className="border border-[#C79A52]/40 hover:border-[#D8AE6A] text-white font-semibold px-10 py-5 rounded-2xl transition-all"
+                >
+                  VER PROGRAMAÇÃO
+                </a>
+              </div>
+            </div>
+
+            {/* HERO IMAGE */}
+            <div className="relative">
+              <div className="absolute -inset-6 bg-blue-500/20 blur-3xl rounded-full"></div>
+
+              <div className="relative rounded-[36px] overflow-hidden border border-white/10 shadow-[0_0_80px_rgba(0,132,255,0.25)]">
+                <img
+                  src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?q=80&w=1600&auto=format&fit=crop"
+                  alt="Global Strategy"
+                  className="h-[620px] w-full object-cover"
+                />
+              </div>
+
+              <div className="absolute bottom-8 right-8 bg-[#091A37]/90 border border-white/10 backdrop-blur-md rounded-3xl p-6 max-w-xs text-white shadow-2xl">
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="h-12 w-12 rounded-2xl border border-white/20 flex items-center justify-center text-xl">
+                    ▶️
+                  </div>
+
+                  <div>
+                    <p className="font-bold text-xl">100% ONLINE E AO VIVO</p>
+                  </div>
+                </div>
+
+                <p className="text-white/70 leading-relaxed">
+                  Um encontro online exclusivo para empresas que desejam estruturar sua Estratégia 2027 com governança profissional.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* BENEFITS */}
+      <section className="bg-white border-b border-slate-200">
+        <div className="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-2 xl:grid-cols-4 gap-10">
+          {benefits.map((item) => (
+            <div key={item.title} className="flex gap-5">
+              <div className="h-16 w-16 rounded-2xl border border-slate-200 flex items-center justify-center text-3xl bg-[#F8FAFC]">
+                ✦
+              </div>
+
+              <div>
+                <h3 className="font-black text-lg text-[#101C3D] leading-tight">
+                  {item.title}
+                </h3>
+
+                <p className="text-slate-500 mt-3 leading-relaxed">
+                  {item.desc}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* SPEAKERS */}
+      <section id="palestrantes" className="py-24 bg-[#F7F8FA]">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-black text-[#101C3D] tracking-tight">
+             Especialistas do Webinar
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-10">
+            {speakers.map((speaker) => (
+              <div
+                key={speaker.name}
+                className="bg-white rounded-[32px] p-6 shadow-sm border border-slate-200 text-center"
+              >
+                <div className="rounded-[24px] overflow-hidden bg-[#DCE2EB] h-[260px]">
+                  <img
+                    src={speaker.image}
+                    alt="Palestrante"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+
+                <h3 className="text-2xl font-black text-[#101C3D] mt-8">
+  {speaker.name}
+</h3>
+
+<p className="text-slate-500 mt-2">
+  {speaker.role}
+</p>
+
+<a
+  href={speaker.linkedin}
+  target="_blank"
+  className="inline-flex items-center gap-3 border border-slate-300 hover:border-[#C79A52] px-6 py-3 rounded-xl mt-8 transition-all font-medium"
+>
+  <span className="text-xl">in</span>
+  Ver perfil no LinkedIn
+</a>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* PROGRAM */}
+      <section id="programacao" className="pb-24 bg-[#F7F8FA]">
+        <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-[1.4fr_0.9fr_1fr] gap-8">
+          {/* TIMELINE */}
+          <div className="bg-white rounded-[32px] border border-slate-200 p-10 shadow-sm">
+            <h2 className="text-4xl font-black text-[#101C3D] mb-12">
+              PROGRAMAÇÃO
+            </h2>
+
+            <div className="space-y-10">
+              {schedule.map((item) => (
+                <div key={item.time} className="flex gap-6">
+                  <div className="flex flex-col items-center">
+                    <div className="h-5 w-5 rounded-full bg-[#13284F]"></div>
+                    <div className="w-px flex-1 bg-slate-300 mt-2"></div>
+                  </div>
+
+                  <div className="flex-1 pb-6 border-b border-slate-100">
+                    <div className="flex gap-6 items-start">
+                      <span className="font-black text-[#13284F] min-w-[70px]">
+                        {item.time}
+                      </span>
+
+                      <div>
+                        <h3 className="font-black text-[#101C3D] text-xl">
+                          {item.title}
+                        </h3>
+
+                        <p className="text-slate-500 mt-2 leading-relaxed">
+                          {item.desc}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <button className="mt-12 border border-[#13284F] text-[#13284F] px-8 py-4 rounded-2xl font-semibold hover:bg-[#13284F] hover:text-white transition-all">
+              VER PROGRAMAÇÃO COMPLETA
+            </button>
+          </div>
+
+          {/* EVENT INFO */}
+          <div className="bg-[#091A37] text-white rounded-[32px] p-10 shadow-2xl">
+            <div className="space-y-10">
+              <div className="border-b border-white/10 pb-8">
+                <p className="text-4xl mb-4">📅</p>
+                <h3 className="text-2xl font-black">15Jun26</h3>
+                
+              </div>
+
+              <div className="border-b border-white/10 pb-8">
+                <p className="text-4xl mb-4">📡</p>
+                <h3 className="text-2xl font-black">100% ONLINE</h3>
+                <p className="text-white/70 mt-2 uppercase tracking-wide">
+                  Ao Vivo
+                </p>
+              </div>
+
+              <div className="border-b border-white/10 pb-8">
+                <p className="text-4xl mb-4">👥</p>
+                <h3 className="text-2xl font-black">INTERAÇÃO</h3>
+                <p className="text-white/70 mt-2 uppercase tracking-wide">
+                  Em tempo real
+                </p>
+              </div>
+
+              <div>
+                <p className="text-4xl mb-4">▶️</p>
+                <h3 className="text-2xl font-black">ACESSO À</h3>
+                <p className="text-white/70 mt-2 uppercase tracking-wide">
+                  Gravação por 30 dias
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* TICKET */}
+          <div
+            id="ingresso"
+            className="bg-[linear-gradient(180deg,#091A37,#0D2550)] text-white rounded-[32px] p-10 shadow-[0_20px_60px_rgba(9,26,55,0.35)]"
+          >
+            <h2 className="text-4xl font-black leading-tight">
+              GARANTA SUA PARTICIPAÇÃO
+            </h2>
+
+            <p className="text-white/70 mt-5 leading-relaxed border-b border-white/10 pb-8">
+              Vagas limitadas para uma experiência exclusiva.
+            </p>
+
+            <div className="mt-10">
+              <p className="uppercase tracking-wide text-white/50 text-sm">
+                Ingresso Individual
+              </p>
+
+              <p className="text-white/70 mt-2">
+                Acesso completo ao evento
+              </p>
+
+              <div className="mt-10">
+                <h3 className="text-6xl font-black tracking-tight">
+                  R$ 97,00
+                </h3>
+
+                <p className="text-white/60 mt-3">ou 4x R$ 24,52</p>
+              </div>
+
+              <ul className="space-y-5 mt-10 text-white/80">
+                <li>✓ Acesso ao evento ao vivo e interativo</li>
+                <li>✓ Materiais exclusivos dos palestrantes</li>
+                <li>✓ Acesso à gravação por 30 dias</li>
+                <li>✓ Certificado digital incluso</li>
+                <li>✓ Networking com participantes</li>
+              </ul>
+
+              <a
+                href="https://pay.hotmart.com/SEU-LINK-AQUI"
+                target="_blank"
+                className="mt-12 flex items-center justify-center bg-[#C79A52] hover:bg-[#D8AE6A] text-white font-bold py-5 rounded-2xl transition-all text-lg"
+              >
+                GARANTIR MINHA VAGA
+              </a>
+
+              <p className="text-center text-white/40 text-sm mt-6">
+                🔒 Pagamento 100% seguro via Hotmart
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* REASONS */}
+      <section className="bg-[linear-gradient(180deg,#091A37,#07152E)] text-white py-24">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-black tracking-tight">
+              POR QUE SUA EMPRESA PRECISA COMEÇAR AGORA?
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 xl:grid-cols-5 gap-10">
+            {reasons.map((item) => (
+              <div key={item.title} className="text-center">
+                <div className="h-20 w-20 rounded-full border border-white/20 mx-auto flex items-center justify-center text-4xl mb-8 bg-white/5">
+                  ✦
+                </div>
+
+                <h3 className="font-black text-xl leading-tight">
+                  {item.title}
+                </h3>
+
+                <p className="text-white/60 leading-relaxed mt-5">
+                  {item.desc}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          {/* FINAL CTA */}
+          <div className="mt-24 border-t border-white/10 pt-16 flex flex-col lg:flex-row items-center justify-between gap-10">
+            <div>
+              <h2 className="text-5xl font-black leading-tight ">
+                É HORA DE COMEÇAR SUA ESTRATÉGIA 2027.
+              </h2>
+            </div>
+
+            <div className="max-w-xl">
+              <p className="text-white/70 text-lg leading-relaxed">
+                Se você quer começar já a organizar a base da sua Estratégia 2027 com solidez e profissionalismo, inscreva sua equipe no nosso webinar de 15 de junho.
+              </p>
+            </div>
+
+            <a
+              href="https://pay.hotmart.com/SEU-LINK-AQUI"
+              target="_blank"
+              className="bg-[#C79A52] hover:bg-[#D8AE6A] text-white font-bold px-10 py-5 rounded-2xl transition-all whitespace-nowrap"
+            >
+              INSCREVER MINHA EQUIPE
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* FOOTER */}
+      <footer className="bg-[#07152E] border-t border-white/10 py-10 text-white/50">
+        <div className="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center justify-between gap-6">
+          <div className="flex items-center gap-4">
+            <h3 className="text-4xl font-black text-white">IPGE</h3>
+
+            <div className="h-10 w-px bg-white/10"></div>
+
+            <div>
+              <p className="text-white text-sm">Gestão Estratégica</p>
+              <p className="text-[10px] uppercase tracking-[0.3em] text-white/40 mt-1">
+                Desde 1994
+              </p>
+            </div>
+          </div>
+
+          <p className="text-sm">
+            © 2026 IPGE — Todos os direitos reservados.
+          </p>
+
+          <div className="flex items-center gap-4 text-xl">
+            <a href="#">in</a>
+            <a href="#">◎</a>
+            <a href="#">▶</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}
+
