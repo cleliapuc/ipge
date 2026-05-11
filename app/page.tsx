@@ -29,44 +29,84 @@ export default function IPGEExecutiveSummit() {
     },
   ];
 
-  const schedule = [
-    {
-      time: '17:30',
-      title: 'Conceito de Estratégia, Execução & Governança',
-      desc: 'Os fundamentos da execução estratégica empresarial.',
-     // speaker: 'AGEU BARROS',
-    },
-    {
-      time: '17:45',
-      title: 'Budget: Ferramenta #1 de Governança',
-      desc: 'A revisão 6+6 como base para decisões executivas.',
-      //speaker: 'AGEU BARROS',
-    },
-    {
-      time: '18:00',
-      title: 'O Processo Organizacional da Execução',
-      desc: 'Como alinhar estratégia, pessoas e projetos.',
-     // speaker: 'MALU',
-    },
-    {
-      time: '18:15',
-      title: 'O Conselho e o Processo Decisório',
-      desc: 'Como estruturar decisões sólidas e alinhadas ao longo prazo.',
-      //speaker: 'FERNANDA',
-    },
-    {
-      time: '18:30',
-      title: 'RH no Suporte Estratégico: Mapertest & Jobfit',
-      desc: 'Avaliação de perfil e desenvolvimento de talentos estratégicos.',
-      //speaker: 'MALU',
-    },
-    {
-      time: '18:45',
-      title: 'Governança & Valuation',
-      desc: 'Como fortalecer crescimento sustentável e valuation crescente.',
-     // speaker: 'FERNANDA',
-    },
-  ];
+ const programacao = [
+  {
+    palestrante: 'Ageu Barros',
+    cargo: 'Estratégia, Execução & Governança',
+    temas: [
+      {
+        titulo: 'Conceito de Estratégia, Execução & Governança',
+        itens: [
+          'Estratégia não é Plano, requer Plano',
+          'Execução via Programas e Projetos',
+          'Governança controla a Execução',
+        ],
+      },
+      {
+        titulo: 'Budget: Ferramenta #1 de Governança',
+        itens: [
+          'Cenários e Simulações para decidir',
+          'Números traduzem estratégias',
+          'Cumprir o budget? Pode ser um erro!',
+        ],
+      },
+      {
+        titulo: 'O Processo Organizacional da Execução',
+        itens: [
+          'RH e todo mundo faz parte da Execução',
+          'Organizando Equipes para a Execução',
+          'Processo decisório stop & go',
+        ],
+      },
+      {
+        titulo: 'O Conselho e o Processo Decisório',
+        itens: [
+          'Que faz o Conselho?',
+          'Definição da Equipe & Outsiders',
+          'Workflow de Reporting para Direção',
+        ],
+      },
+    ],
+  },
+
+  {
+    palestrante: 'Malu',
+    cargo: 'RH no Suporte Estratégico: Mapertest & Jobfit',
+    temas: [
+      {
+        titulo: 'Bloco 1',
+        itens: ['Item 1.1', 'Item 1.2', 'Item 1.3'],
+      },
+      {
+        titulo: 'Bloco 2',
+        itens: ['Item 2.1', 'Item 2.2', 'Item 2.3'],
+      },
+      {
+        titulo: 'Bloco 3',
+        itens: ['Item 3.1', 'Item 3.2', 'Item 3.3'],
+      },
+    ],
+  },
+
+  {
+    palestrante: 'Fernanda Franco',
+    cargo: 'Governança & Valuation',
+    temas: [
+      {
+        titulo: 'Bloco 1',
+        itens: ['Item 1.1', 'Item 1.2', 'Item 1.3'],
+      },
+      {
+        titulo: 'Bloco 2',
+        itens: ['Item 2.1', 'Item 2.2', 'Item 2.3'],
+      },
+      {
+        titulo: 'Bloco 3',
+        itens: ['Item 3.1', 'Item 3.2', 'Item 3.3'],
+      },
+    ],
+  },
+];
 
   const benefits = [
     { title: 'Networking Qualificado', desc: 'Conecte-se com líderes de todo Brasil', icon: '🤝' },
@@ -236,90 +276,180 @@ export default function IPGEExecutiveSummit() {
 
       {/* PROGRAM */}
 {/* PROGRAM */}
-<section id="programacao" className="pb-24 bg-[#F7F8FA] pt-8">
-  <div className="max-w-7xl mx-auto px-6">
-    <h2 className="text-4xl font-black text-[#101C3D] mb-12">PROGRAMAÇÃO</h2>
+{/* PROGRAM */}
+<section
+  id="programacao"
+  className="pb-24 bg-[#F7F8FA] pt-10"
+>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6">
 
-    <div className="grid lg:grid-cols-3 gap-8">
+    <div className="text-center mb-16">
+      <h2 className="text-4xl md:text-5xl font-black text-[#101C3D] mb-4">
+        PROGRAMAÇÃO EXECUTIVA
+      </h2>
 
-      {/* TIMELINE - Coluna esquerda */}
-      <div className="lg:col-span-2">
-        <div className="space-y-6">
-          {schedule.map((item, i) => (
-            <div key={item.time} className="group cursor-pointer">
-              <div className="flex gap-6 p-6 rounded-2xl bg-white border-2 border-slate-200 hover:border-[#C79A52] hover:shadow-lg transition-all duration-300">
-                <div className="flex flex-col items-center flex-shrink-0">
-                  <div className="h-6 w-6 rounded-full bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] shadow-lg"></div>
-                  {i < schedule.length - 1 && <div className="w-1 h-16 bg-gradient-to-b from-[#C79A52] to-transparent mt-2"></div>}
-                </div>
+      <p className="text-slate-600 text-lg max-w-3xl mx-auto">
+        Um encontro estratégico voltado para líderes, executivos,
+        conselheiros e empresas que desejam estruturar o planejamento 2027
+        com governança profissional.
+      </p>
+    </div>
 
-                <div className="flex-1 min-w-0">
-                  <div className="flex items-baseline gap-4 mb-2">
-                    <span className="font-black text-[#C79A52] text-lg min-w-[80px]">{item.time}</span>
-                  </div>
-                  <h3 className="font-black text-[#101C3D] text-lg group-hover:text-[#C79A52] transition-colors whitespace-nowrap overflow-hidden text-ellipsis">
-                    {item.title}
-                  </h3>
-                  <p className="text-slate-600 mt-2 text-sm leading-relaxed">{item.desc}</p>
-                </div>
+    <div className="grid lg:grid-cols-[1.5fr_0.5fr] gap-8">
+
+      {/* ACCORDION */}
+      <div className="space-y-6">
+
+        {programacao.map((palestrante, index) => (
+          <details
+            key={index}
+            className="group bg-white rounded-3xl border border-slate-200 shadow-sm overflow-hidden"
+          >
+            <summary className="list-none cursor-pointer p-6 md:p-8 flex items-center justify-between hover:bg-slate-50 transition-all">
+
+              <div>
+                <h3 className="text-2xl md:text-3xl font-black text-[#101C3D]">
+                  {palestrante.palestrante}
+                </h3>
+
+                <p className="text-[#C79A52] font-semibold mt-2 text-sm md:text-base">
+                  {palestrante.cargo}
+                </p>
               </div>
+
+              <div className="text-[#C79A52] text-4xl font-light group-open:rotate-45 transition-transform">
+                +
+              </div>
+
+            </summary>
+
+            <div className="px-6 md:px-8 pb-8 space-y-6">
+
+              {palestrante.temas.map((tema, i) => (
+                <div
+                  key={i}
+                  className="bg-slate-50 rounded-2xl p-5 border-l-4 border-[#C79A52]"
+                >
+                  <h4 className="text-xl font-black text-[#101C3D] mb-4">
+                    {tema.titulo}
+                  </h4>
+
+                  <ul className="space-y-3">
+                    {tema.itens.map((item, j) => (
+                      <li
+                        key={j}
+                        className="flex items-start gap-3 text-slate-700"
+                      >
+                        <span className="text-[#C79A52] font-black mt-1">
+                          •
+                        </span>
+
+                        <span className="leading-relaxed">
+                          {item}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+
+                </div>
+              ))}
+
             </div>
-          ))}
-        </div>
+          </details>
+        ))}
+
       </div>
 
-      {/* DETALHES + INGRESSO - Coluna direita */}
-      <div className="lg:col-span-1 space-y-8">
+      {/* SIDEBAR */}
+      <div className="space-y-8">
 
-        {/* DETALHES DO EVENTO */}
-        <div className="bg-gradient-to-br from-[#091A37] to-[#0D2550] text-white rounded-3xl p-8 shadow-2xl h-fit">
-          <h3 className="text-2xl font-black leading-tight mb-8">Detalhes do Evento</h3>
+        <div className="bg-gradient-to-br from-[#091A37] to-[#0D2550] text-white rounded-3xl p-8 shadow-2xl">
+
+          <h3 className="text-3xl font-black mb-8">
+            Detalhes
+          </h3>
 
           <div className="space-y-6">
-            {[
-              { icon: '📅', label: 'DATA', value: '15 Jun 26' },
-              { icon: '⏰', label: 'DURAÇÃO', value: '1h30' },
-              { icon: '📡', label: 'FORMATO', value: '100% Online' },
-              { icon: '🔄', label: 'GRAVAÇÃO', value: '30 dias' },
-            ].map((item) => (
-              <div key={item.label} className="flex items-start gap-4 pb-6 border-b border-white/10 last:border-0 last:pb-0">
-                <div className="text-4xl flex-shrink-0">{item.icon}</div>
-                <div className="flex-1">
-                  <p className="text-xs uppercase tracking-widest text-white/60 font-bold mb-1">{item.label}</p>
-                  <p className="text-xl font-black">{item.value}</p>
-                </div>
-              </div>
-            ))}
+
+            <div>
+              <p className="text-white/50 uppercase text-xs tracking-wide font-bold">
+                Data
+              </p>
+
+              <p className="text-xl font-black mt-2">
+                15 Jun 2026
+              </p>
+            </div>
+
+            <div>
+              <p className="text-white/50 uppercase text-xs tracking-wide font-bold">
+                Horário
+              </p>
+
+              <p className="text-xl font-black mt-2">
+                17h30 às 19h00
+              </p>
+            </div>
+
+            <div>
+              <p className="text-white/50 uppercase text-xs tracking-wide font-bold">
+                Formato
+              </p>
+
+              <p className="text-xl font-black mt-2">
+                Online ao Vivo
+              </p>
+            </div>
+
+            <div>
+              <p className="text-white/50 uppercase text-xs tracking-wide font-bold">
+                Certificado
+              </p>
+
+              <p className="text-xl font-black mt-2">
+                Incluso
+              </p>
+            </div>
+
           </div>
         </div>
 
-        {/* INGRESSO INDIVIDUAL */}
+        {/* CTA */}
         <div className="bg-gradient-to-br from-[#C79A52] to-[#D8AE6A] rounded-3xl p-8 shadow-2xl">
-          <p className="text-white/90 text-xs font-semibold uppercase tracking-wide mb-3">Ingresso Individual</p>
 
-          <h3 className="text-5xl font-black text-white mb-2">R$ 95,00</h3>
-
-          <p className="text-white/80 mb-6 text-sm">ou 4x R$ 24,52</p>
-
-          <p className="text-white font-bold text-sm mb-6 pb-6 border-b border-white/30">
-            Desconto em grupo: a partir do 2º participante, R$ 45,00
+          <p className="text-white/80 uppercase tracking-wide text-xs font-bold mb-3">
+            Ingresso Individual
           </p>
 
-          <ul className="space-y-3 mb-8 text-white text-sm">
+          <h3 className="text-5xl font-black text-white">
+            R$ 95
+          </h3>
+
+          <p className="text-white/80 mt-2">
+            ou 4x R$ 24,52
+          </p>
+
+          <div className="my-8 border-t border-white/30"></div>
+
+          <ul className="space-y-3 text-white text-sm mb-8">
             <li>✓ Acesso ao evento ao vivo</li>
-            <li>✓ Materiais exclusivos</li>
-            <li>✓ Gravação 30 dias</li>
+            <li>✓ Gravação disponível</li>
+            <li>✓ Material complementar</li>
             <li>✓ Certificado digital</li>
           </ul>
 
-           <button 
-  onClick={() => window.open('https://go.hotmart.com/P105745942U', '_blank')}
-  className="w-full bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] hover:shadow-lg hover:shadow-[#C79A52]/50 text-white font-black py-4 rounded-2xl transition-all text-lg uppercase tracking-wide"
->
-  GARANTIR VAGA
-</button>
+          <button
+            onClick={() =>
+              window.open(
+                'https://go.hotmart.com/P105745942U',
+                '_blank'
+              )
+            }
+            className="w-full bg-white text-[#101C3D] hover:scale-[1.02] transition-all font-black py-5 rounded-2xl text-lg"
+          >
+            GARANTIR VAGA
+          </button>
 
-          <p className="text-center text-white/70 text-xs mt-4">🔒 Pagamento seguro</p>
         </div>
 
       </div>
