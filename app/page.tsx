@@ -314,9 +314,12 @@ export default function IPGEExecutiveSummit() {
             <li>✓ Certificado digital</li>
           </ul>
 
-          <button className="w-full bg-white text-[#C79A52] font-black py-3 rounded-2xl hover:shadow-lg transition-all text-lg">
-            GARANTIR VAGA
-          </button>
+           <button 
+  onClick={() => window.open('https://go.hotmart.com/P105745942U', '_blank')}
+  className="w-full bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] hover:shadow-lg hover:shadow-[#C79A52]/50 text-white font-black py-4 rounded-2xl transition-all text-lg uppercase tracking-wide"
+>
+  GARANTIR VAGA
+</button>
 
           <p className="text-center text-white/70 text-xs mt-4">🔒 Pagamento seguro</p>
         </div>
