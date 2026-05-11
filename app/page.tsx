@@ -212,7 +212,7 @@ export default function IPGEExecutiveSummit() {
               <div className="absolute -inset-8 bg-gradient-to-r from-[#C79A52]/20 to-blue-500/20 blur-3xl rounded-full group-hover:blur-2xl transition-all duration-300"></div>
 
               <div className="relative rounded-3xl overflow-hidden border-2 border-white/10 shadow-2xl group-hover:border-[#C79A52]/1 transition-all duration-300">
-                <img src="img/caminhos.jpg" alt="webinar" className="h-[500px] w-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                <img src="img/caminhos.png" alt="webinar" className="h-[500px] w-full object-cover group-hover:scale-105 transition-transform duration-500" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#08152E] via-transparent to-transparent"></div>
               </div>
 
