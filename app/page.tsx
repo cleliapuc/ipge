@@ -423,9 +423,12 @@ export default function IPGEExecutiveSummit() {
           <p className="text-3xl font-black text-[#101C3D]">R$ 61,67</p>
           <p className="text-slate-600 text-sm mt-2">Total: R$ 185,00</p>
         </div>
-        <button className="w-full bg-[#101C3D] hover:bg-[#0a0f1a] text-white font-black py-4 rounded-2xl transition-all text-lg uppercase tracking-wide">
-          GARANTIR VAGAS
-        </button>
+         <button 
+        onClick={() => window.open('https://pay.hotmart.com/P105745942U?off=oqp4luqv&bid=1778467019467', '_blank')}
+  className="w-full bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] hover:shadow-lg hover:shadow-[#C79A52]/50 text-white font-black py-4 rounded-2xl transition-all text-lg uppercase tracking-wide">
+    GARANTIR VAGA
+</button>
+       
       </div>
 
       {/* 4 PARTICIPANTES */}
@@ -441,9 +444,11 @@ export default function IPGEExecutiveSummit() {
           <p className="text-3xl font-black text-[#101C3D]">R$ 57,50</p>
           <p className="text-slate-600 text-sm mt-2">Total: R$ 230,00</p>
         </div>
-        <button className="w-full bg-[#101C3D] hover:bg-[#0a0f1a] text-white font-black py-4 rounded-2xl transition-all text-lg uppercase tracking-wide">
-          GARANTIR VAGAS
-        </button>
+         <button 
+        onClick={() => window.open('https://pay.hotmart.com/P105745942U?off=2sqyilo7&bid=1778467214818', '_blank')}
+  className="w-full bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] hover:shadow-lg hover:shadow-[#C79A52]/50 text-white font-black py-4 rounded-2xl transition-all text-lg uppercase tracking-wide">
+    GARANTIR VAGA
+</button>
       </div>
 
     </div>
