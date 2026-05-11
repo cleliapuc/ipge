@@ -104,9 +104,7 @@ export default function IPGEExecutiveSummit() {
             className="h-15 w-auto"
     />
 
-   
-
-    
+       
   </div>
 
             <nav className="hidden lg:flex items-center gap-8 text-sm text-white/80 font-medium">
@@ -116,9 +114,9 @@ export default function IPGEExecutiveSummit() {
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#C79A52] group-hover:w-full transition-all duration-300"></span>
                 </a>
               ))}
-              <a href="https://pay.hotmart.com/SEU-LINK-AQUI" target="_blank" className="bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] hover:shadow-lg hover:shadow-[#C79A52]/50 text-white px-6 py-3 rounded-xl transition-all duration-300 font-semibold">
-                GARANTIR VAGA
-              </a>
+              <a href="#modalidade" className="px-8 py-4 rounded-xl font-bold text-white border-2 border-white/20 hover:border-[#C79A52] hover:bg-white/5 transition-all duration-300">
+                  VER PROGRAMAÇÃO
+                </a>
             </nav>
           </header>
 
@@ -365,7 +363,7 @@ export default function IPGEExecutiveSummit() {
       </section>
 
       {/* PRICING CARDS */}
-<section className="py-24 bg-white">
+<section className="py-24 bg-white" id="modalidade">
   <div className="max-w-7xl mx-auto px-6">
     <h2 className="text-5xl font-black text-[#101C3D] mb-16 text-center">MODALIDADES DE PARTICIPAÇÃO</h2>
 
