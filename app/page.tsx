@@ -448,15 +448,17 @@ export default function IPGEExecutiveSummit() {
           <div className="bg-gradient-to-r from-white/10 to-white/5 border border-white/20 rounded-3xl p-12 text-center backdrop-blur-sm">
             <h3 className="text-4xl font-black mb-6">É Hora de Começar Sua Estratégia 2027</h3>
             <p className="text-white/80 text-lg mb-10 max-w-2xl mx-auto">Se você quer organizar a base da sua estratégia com solidez e profissionalismo, inscreva sua equipe agora.</p>
-            <button
+           
+           <button
               onClick={() => {
                 const section = document.getElementById('modalidades');
                 section?.scrollIntoView({ behavior: 'smooth' });
               }}
-              className="..."
+              className="inline-block bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] hover:shadow-2xl hover:shadow-[#C79A52]/50 text-white font-black px-12 py-5 rounded-xl transition-all duration-300"
             >
               INSCREVER MINHA EQUIPE
             </button>
+
           </div>
         </div>
       </section>
