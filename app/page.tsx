@@ -212,7 +212,7 @@ export default function IPGEExecutiveSummit() {
               <div className="absolute -inset-8 bg-gradient-to-r from-[#C79A52]/20 to-blue-500/20 blur-3xl rounded-full group-hover:blur-2xl transition-all duration-300"></div>
 
               <div className="relative rounded-3xl overflow-hidden border-2 border-white/10 shadow-2xl group-hover:border-[#C79A52]/1 transition-all duration-300">
-                <img src="img/caminhos.png" alt="webinar" className="h-[500px] w-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                <img src="img/caminhos.pngs" alt="webinar" className="h-[500px] w-full object-cover group-hover:scale-105 transition-transform duration-500" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#08152E] via-transparent to-transparent"></div>
               </div>
 
@@ -414,44 +414,7 @@ export default function IPGEExecutiveSummit() {
           </div>
         </div>
 
-        {/* CTA */}
-        <div className="bg-gradient-to-br from-[#C79A52] to-[#D8AE6A] rounded-3xl p-8 shadow-2xl">
-
-          <p className="text-white/80 uppercase tracking-wide text-xs font-bold mb-3">
-            Ingresso Individual
-          </p>
-
-          <h3 className="text-5xl font-black text-white">
-            R$ 95
-          </h3>
-
-          <p className="text-white/80 mt-2">
-            ou 4x R$ 24,52
-          </p>
-
-          <div className="my-8 border-t border-white/30"></div>
-
-          <ul className="space-y-3 text-white text-sm mb-8">
-            <li>✓ Acesso ao evento ao vivo</li>
-            <li>✓ Gravação disponível</li>
-            <li>✓ Material complementar</li>
-            <li>✓ Certificado digital</li>
-          </ul>
-
-          <button
-            onClick={() =>
-              window.open(
-                'https://go.hotmart.com/P105745942U',
-                '_blank'
-              )
-            }
-            className="w-full bg-white text-[#101C3D] hover:scale-[1.02] transition-all font-black py-5 rounded-2xl text-lg"
-          >
-            GARANTIR VAGA
-          </button>
-
-        </div>
-
+       
       </div>
 
     </div>
