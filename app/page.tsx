@@ -196,10 +196,15 @@ export default function IPGEExecutiveSummit() {
 
               {/* CTA Buttons */}
               <div className="flex flex-wrap gap-4 pt-8">
-                <a href="https://pay.hotmart.com/SEU-LINK-AQUI" target="_blank" className="group relative px-8 py-4 rounded-xl font-bold text-white overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] group-hover:shadow-2xl group-hover:shadow-[#C79A52]/50 transition-all duration-300"></div>
-                  <span className="relative flex items-center gap-2">GARANTIR MINHA VAGA <span className="group-hover:translate-x-1 transition-transform">→</span></span>
-                </a>
+                <button
+        onClick={() => {
+          const section = document.getElementById('modalidades');
+          section?.scrollIntoView({ behavior: 'smooth' });
+        }}
+        className="inline-block bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] hover:shadow-2xl hover:shadow-[#C79A52]/50 text-white font-black px-12 py-5 rounded-xl transition-all duration-300"
+      >
+       GARANTIR MINHA VAGA
+      </button>
 
                 <a href="#programacao" className="px-8 py-4 rounded-xl font-bold text-white border-2 border-white/20 hover:border-[#C79A52] hover:bg-white/5 transition-all duration-300">
                   VER PROGRAMAÇÃO
