@@ -154,7 +154,7 @@ export default function IPGEExecutiveSummit() {
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#C79A52] group-hover:w-full transition-all duration-300"></span>
                 </a>
               ))}
-              <a href="#modalidade" className="px-8 py-4 rounded-xl font-bold text-white border-2 border-white/20 hover:border-[#C79A52] hover:bg-white/5 transition-all duration-300">
+              <a href="#programacao" className="px-8 py-4 rounded-xl font-bold text-white border-2 border-white/20 hover:border-[#C79A52] hover:bg-white/5 transition-all duration-300">
                   VER PROGRAMAÇÃO
                 </a>
             </nav>
