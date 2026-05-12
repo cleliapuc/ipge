@@ -139,9 +139,15 @@ export default function IPGEExecutiveSummit() {
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#C79A52] group-hover:w-full transition-all duration-300"></span>
                 </a>
               ))}
-              <a href="#programacao" className="px-8 py-4 rounded-xl font-bold text-white border-2 border-white/20 hover:border-[#C79A52] hover:bg-white/5 transition-all duration-300">
-                  VER PROGRAMAÇÃO
-                </a>
+                  <button
+                  onClick={() => {
+                    const section = document.getElementById('programacao');
+                    section?.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                  className="inline-block bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] hover:shadow-2xl hover:shadow-[#C79A52]/50 text-white font-black px-12 py-5 rounded-xl transition-all duration-300"
+                >
+                VER PROGRAMAÇÃO
+                </button>
             </nav>
           </header>
 
@@ -182,18 +188,24 @@ export default function IPGEExecutiveSummit() {
               {/* CTA Buttons */}
               <div className="flex flex-wrap gap-4 pt-8">
                 <button
-        onClick={() => {
-          const section = document.getElementById('modalidades');
-          section?.scrollIntoView({ behavior: 'smooth' });
-        }}
-        className="inline-block bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] hover:shadow-2xl hover:shadow-[#C79A52]/50 text-white font-black px-12 py-5 rounded-xl transition-all duration-300"
-      >
-       GARANTIR MINHA VAGA
-      </button>
+                  onClick={() => {
+                    const section = document.getElementById('modalidades');
+                    section?.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                  className="inline-block bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] hover:shadow-2xl hover:shadow-[#C79A52]/50 text-white font-black px-12 py-5 rounded-xl transition-all duration-300"
+                >
+                GARANTIR MINHA VAGA
+                </button>
 
-                <a href="#programacao" className="px-8 py-4 rounded-xl font-bold text-white border-2 border-white/20 hover:border-[#C79A52] hover:bg-white/5 transition-all duration-300">
-                  VER PROGRAMAÇÃO
-                </a>
+                  <button
+                  onClick={() => {
+                    const section = document.getElementById('programacao');
+                    section?.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                  className="inline-block bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] hover:shadow-2xl hover:shadow-[#C79A52]/50 text-white font-black px-12 py-5 rounded-xl transition-all duration-300"
+                >
+                VER PROGRAMAÇÃO
+                </button>
               </div>
             </div>
 
