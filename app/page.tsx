@@ -85,7 +85,7 @@ export default function IPGEExecutiveSummit() {
     cargo: 'Governança & Valuation',
     temas: [
       {
-        titulo: 'Bloco 1',
+        titulo: 'Governança & Valuation',
         itens: ['Valuation: O que o comprador enxerga?', 'Valuation: As armadilhas do Mercado', 'Ferramentas, Compliance,Conselho'],
       },
       
