@@ -464,7 +464,7 @@ export default function IPGEExecutiveSummit() {
       </section>
 
       {/* PRICING CARDS */}
-<section id="modalidade" className="py-24 bg-white">
+<section id="modalidades" className="py-24 bg-white">
   <div className="max-w-7xl mx-auto px-6">
     <h2 className="text-5xl font-black text-[#101C3D] mb-16 text-center">MODALIDADES DE PARTICIPAÇÃO</h2>
 
