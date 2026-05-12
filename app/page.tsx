@@ -70,22 +70,14 @@ export default function IPGEExecutiveSummit() {
   },
 
   {
-    palestrante: 'Malu',
+    palestrante: 'Dra Maria Lúcia',
     cargo: 'RH no Suporte Estratégico: Mapertest & Jobfit',
     temas: [
       {
-        titulo: 'Bloco 1',
-        itens: ['Item 1.1', 'Item 1.2', 'Item 1.3'],
+        titulo: 'RH no Suporte Estratégico: Mapertest & Jobfit',
+        itens: ['RH pode e deve participar da Execução', 'O papel de RH no design organizacional', 'A Ética que precede Compliance'],
       },
-      {
-        titulo: 'Bloco 2',
-        itens: ['Item 2.1', 'Item 2.2', 'Item 2.3'],
-      },
-      {
-        titulo: 'Bloco 3',
-        itens: ['Item 3.1', 'Item 3.2', 'Item 3.3'],
-      },
-    ],
+           ],
   },
 
   {
@@ -94,16 +86,9 @@ export default function IPGEExecutiveSummit() {
     temas: [
       {
         titulo: 'Bloco 1',
-        itens: ['Item 1.1', 'Item 1.2', 'Item 1.3'],
+        itens: ['Valuation: O que o comprador enxerga?', 'Valuation: As armadilhas do Mercado', 'Ferramentas, Compliance,Conselho'],
       },
-      {
-        titulo: 'Bloco 2',
-        itens: ['Item 2.1', 'Item 2.2', 'Item 2.3'],
-      },
-      {
-        titulo: 'Bloco 3',
-        itens: ['Item 3.1', 'Item 3.2', 'Item 3.3'],
-      },
+      
     ],
   },
 ];
