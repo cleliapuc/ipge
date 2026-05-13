@@ -365,13 +365,13 @@ export default function IPGEExecutiveSummit() {
       {/* SIDEBAR */}
       <div className="space-y-8">
 
-        <div className="bg-gradient-to-br from-[#091A37] to-[#0D2550] text-white rounded-3xl p-8 shadow-2xl">
+        <div className="hidden lg:block bg-gradient-to-br from-[#091A37] to-[#0D2550] text-white rounded-3xl p-6 md:p-8 shadow-2xl h-fit">
 
           <h3 className="text-3xl font-black mb-8">
             Detalhes
           </h3>
 
-          <div className="space-y-6">
+          <div className="space-y-5">
 
             <div>
               <p className="text-white/50 uppercase text-xs tracking-wide font-bold">
@@ -476,7 +476,7 @@ export default function IPGEExecutiveSummit() {
       <div className="rounded-3xl p-10 border-3 border-[#C79A52] bg-gradient-to-br from-white to-[#FFF9F0] shadow-xl hover:shadow-2xl transition-all">
         <div className="flex items-start justify-between mb-10">
           <div>
-            <p className="text-3xl font-black text-[#101C3D]">1 Participante</p>
+            <p className="text-2xl md:text-3xl font-black text-[#101C3D]">1 Participante</p>
             <span className="inline-block bg-[#C79A52] text-white px-6 py-2 rounded-full text-sm font-black mt-4 uppercase tracking-wide">Preço Base</span>
           </div>
         </div>
