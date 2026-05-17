@@ -365,7 +365,7 @@ export default function IPGEExecutiveSummit() {
       {/* SIDEBAR */}
       <div className="space-y-8">
 
-        <div className="hidden lg:block bg-gradient-to-br from-[#091A37] to-[#0D2550] text-white rounded-3xl p-6 md:p-8 shadow-2xl h-fit">
+        <div className="hidden lg:block bg-gradient-to-br ;from-[#091A37] to-[#0D2550] text-white rounded-3xl p-6 md:p-8 shadow-2xl h-fit">
 
           <h3 className="text-3xl font-black mb-8">
             Detalhes
@@ -482,8 +482,8 @@ export default function IPGEExecutiveSummit() {
         </div>
         <div className="mb-8 pb-8 border-b-2 border-[#C79A52]/20">
           <p className="text-sm text-slate-500 font-bold uppercase tracking-widest mb-2">Valor Total</p>
-          <p className="text-5xl font-black text-[#C79A52]">R$ 95,00</p>
-          <p className="text-slate-600 text-sm mt-3">ou 4x R$ 24,52</p>
+          <p className="text-5xl font-black text-[#C79A52]">R$ 45,00</p>
+          <p className="text-slate-600 text-sm mt-3">ou 4x R$ 12,25</p>
         </div>
         
         <button 
@@ -494,77 +494,9 @@ export default function IPGEExecutiveSummit() {
 </button>
       </div>
 
-      {/* 2 PARTICIPANTES */}
-      <div className="rounded-3xl p-10 border-2 border-slate-300 bg-white hover:border-[#C79A52] hover:shadow-xl transition-all">
-        <div className="flex items-start justify-between mb-10">
-          <div>
-            <p className="text-3xl font-black text-[#101C3D]">2 Participantes</p>
-            <p className="text-sm text-[#C79A52] font-black mt-4 uppercase tracking-wide">Economize 26%</p>
-          </div>
-        </div>
-        <div className="mb-8 pb-8 border-b-2 border-slate-200">
-          <p className="text-sm text-slate-500 font-bold uppercase tracking-widest mb-2">Valor por Pessoa</p>
-          <p className="text-3xl font-black text-[#101C3D]">R$ 70,00</p>
-          <p className="text-slate-600 text-sm mt-2">Total: R$ 140,00</p>
-        </div>
-        <button 
-        onClick={() => window.open('https://pay.hotmart.com/P105745942U?off=a1z7n803', '_blank')}
-  className="w-full bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] hover:shadow-lg hover:shadow-[#C79A52]/50 text-white font-black py-4 rounded-2xl transition-all text-lg uppercase tracking-wide">
-    GARANTIR VAGA
-</button>
-      </div>
-
-      {/* 3 PARTICIPANTES */}
-      <div className="rounded-3xl p-10 border-2 border-slate-300 bg-white hover:border-[#C79A52] hover:shadow-xl transition-all">
-        <div className="flex items-start justify-between mb-10">
-          <div>
-            <p className="text-3xl font-black text-[#101C3D]">3 Participantes</p>
-            <p className="text-sm text-[#C79A52] font-black mt-4 uppercase tracking-wide">Economize 35%</p>
-          </div>
-        </div>
-        <div className="mb-8 pb-8 border-b-2 border-slate-200">
-          <p className="text-sm text-slate-500 font-bold uppercase tracking-widest mb-2">Valor por Pessoa</p>
-          <p className="text-3xl font-black text-[#101C3D]">R$ 61,67</p>
-          <p className="text-slate-600 text-sm mt-2">Total: R$ 185,00</p>
-        </div>
-         <button 
-        onClick={() => window.open('https://pay.hotmart.com/P105745942U?off=oqp4luqv&bid=1778467019467', '_blank')}
-  className="w-full bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] hover:shadow-lg hover:shadow-[#C79A52]/50 text-white font-black py-4 rounded-2xl transition-all text-lg uppercase tracking-wide">
-    GARANTIR VAGA
-</button>
-       
-      </div>
-
-      {/* 4 PARTICIPANTES */}
-      <div className="rounded-3xl p-10 border-2 border-slate-300 bg-white hover:border-[#C79A52] hover:shadow-xl transition-all">
-        <div className="flex items-start justify-between mb-10">
-          <div>
-            <p className="text-3xl font-black text-[#101C3D]">4 Participantes</p>
-            <p className="text-sm text-[#C79A52] font-black mt-4 uppercase tracking-wide">Economize 39%</p>
-          </div>
-        </div>
-        <div className="mb-8 pb-8 border-b-2 border-slate-200">
-          <p className="text-sm text-slate-500 font-bold uppercase tracking-widest mb-2">Valor por Pessoa</p>
-          <p className="text-3xl font-black text-[#101C3D]">R$ 57,50</p>
-          <p className="text-slate-600 text-sm mt-2">Total: R$ 230,00</p>
-        </div>
-         <button 
-        onClick={() => window.open('https://pay.hotmart.com/P105745942U?off=2sqyilo7&bid=1778467214818', '_blank')}
-  className="w-full bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] hover:shadow-lg hover:shadow-[#C79A52]/50 text-white font-black py-4 rounded-2xl transition-all text-lg uppercase tracking-wide">
-    GARANTIR VAGA
-</button>
-      </div>
-
     </div>
 
-    {/* DESTAQUE FINAL */}
-    <div className="text-center mt-20 p-10 bg-gradient-to-r from-[#091A37] to-[#0D2550] rounded-3xl max-w-3xl mx-auto border-2 border-[#C79A52]/30">
-      <p className="text-2xl font-black text-white mb-4">
-        💰 Quanto mais participantes, maior o desconto!
-      </p>
-      <p className="text-white/80 text-lg">Economize até 39% ao inscrever sua equipe completa</p>
     </div>
-  </div>
 </section>
 
       {/* FOOTER */}
