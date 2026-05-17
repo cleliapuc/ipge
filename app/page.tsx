@@ -446,42 +446,123 @@ export default function IPGEExecutiveSummit() {
             ))}
           </div>
 
-          {/* Final CTA */}
-          <div className="bg-gradient-to-r from-white/10 to-white/5 border border-white/20 rounded-3xl p-12 text-center backdrop-blur-sm">
-            <h3 className="text-4xl font-black mb-6">É Hora de Começar Sua Estratégia 2027</h3>
-            <p className="text-white/80 text-lg mb-10 max-w-2xl mx-auto">Se você quer organizar a base da sua estratégia com solidez e profissionalismo, inscreva sua equipe agora.</p>
-           
-  <div className="max-w-7xl mx-auto px-6">
+         
+   {/* Final CTA */}
+<div className="bg-gradient-to-r from-white/10 to-white/5 border border-white/20 rounded-3xl p-8 md:p-14 backdrop-blur-sm">
 
-    <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+  <div className="grid lg:grid-cols-2 gap-12 items-center">
 
-      {/* 1 PARTICIPANTE - DESTAQUE */}
-      <div className="rounded-3xl p-10 border-3 border-[#C79A52] bg-gradient-to-br from-white to-[#FFF9F0] shadow-xl hover:shadow-2xl transition-all">
-        <div className="flex items-start justify-between mb-10">
-          <div>
-            <p className="text-2xl md:text-3xl font-black text-[#101C3D]"></p>
-            <span className="inline-block bg-[#C79A52] text-white px-6 py-2 rounded-full text-sm font-black mt-4 uppercase tracking-wide"></span>
-          </div>
+    {/* LEFT */}
+    <div>
+
+      <p className="uppercase tracking-[0.3em] text-[#D8AE6A] text-sm font-black mb-6">
+        ROADMAP 2027
+      </p>
+
+      <h3 className="text-4xl md:text-5xl font-black leading-tight mb-8">
+        É Hora de Começar Sua Estratégia 2027
+      </h3>
+
+      <p className="text-white/75 text-lg leading-relaxed max-w-xl">
+        Se você quer organizar a base da sua estratégia com solidez,
+        governança e profissionalismo, participe deste encontro executivo
+        e prepare sua organização para 2027.
+      </p>
+
+      <div className="mt-10 flex flex-wrap gap-4">
+
+        <div className="bg-white/10 border border-white/10 rounded-full px-5 py-3 text-sm font-semibold">
+          ✔ Evento ao Vivo
         </div>
-        <div className="mb-8 pb-8 border-b-2 border-[#C79A52]/20">
-          <p className="text-sm text-slate-500 font-bold uppercase tracking-widest mb-2">Preço Total</p>
-          <p className="text-5xl font-black text-[#C79A52]">R$ 45,00</p>
-          <p className="text-slate-600 text-sm mt-3">ou 4x R$ 12,25</p>
+
+        <div className="bg-white/10 border border-white/10 rounded-full px-5 py-3 text-sm font-semibold">
+          ✔ Certificado
         </div>
-        
-        <button 
-  onClick={() => window.open('https://go.hotmart.com/P105745942U', '_blank')}
-  className="w-full bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] hover:shadow-lg hover:shadow-[#C79A52]/50 text-white font-black py-4 rounded-2xl transition-all text-lg uppercase tracking-wide"
->
-  GARANTIR VAGA
-</button>
+
+        <div className="bg-white/10 border border-white/10 rounded-full px-5 py-3 text-sm font-semibold">
+          ✔ Material Complementar
+        </div>
+
       </div>
 
     </div>
 
+    {/* RIGHT */}
+    <div className="max-w-md w-full mx-auto">
+
+      <div className="rounded-3xl p-10 border-2 border-[#C79A52] bg-gradient-to-br from-white to-[#FFF9F0] shadow-2xl">
+
+        <div className="mb-8">
+
+          <span className="inline-block bg-[#C79A52] text-white px-5 py-2 rounded-full text-xs font-black uppercase tracking-wider mb-5">
+            Inscrição Individual
+          </span>
+
+          <h4 className="text-3xl font-black text-[#101C3D] leading-tight">
+            Participe do Webinar Executivo
+          </h4>
+
+        </div>
+
+        <div className="mb-8 pb-8 border-b border-slate-200">
+
+          <p className="text-sm text-slate-500 font-bold uppercase tracking-widest mb-3">
+            Investimento
+          </p>
+
+          <p className="text-6xl font-black text-[#C79A52]">
+            R$ 45
+          </p>
+
+          <p className="text-slate-500 mt-3">
+            ou 4x R$ 12,25
+          </p>
+
+        </div>
+
+        <ul className="space-y-4 mb-10">
+
+          <li className="flex items-start gap-3 text-[#101C3D]">
+            <span className="text-[#C79A52] font-black">✔</span>
+            Acesso ao evento ao vivo
+          </li>
+
+          <li className="flex items-start gap-3 text-[#101C3D]">
+            <span className="text-[#C79A52] font-black">✔</span>
+            Certificado digital
+          </li>
+
+          <li className="flex items-start gap-3 text-[#101C3D]">
+            <span className="text-[#C79A52] font-black">✔</span>
+            Material complementar
+          </li>
+
+          <li className="flex items-start gap-3 text-[#101C3D]">
+            <span className="text-[#C79A52] font-black">✔</span>
+            Gravação disponível
+          </li>
+
+        </ul>
+
+        <button
+          onClick={() =>
+            window.open(
+              'https://go.hotmart.com/P105745942U',
+              '_blank'
+            )
+          }
+          className="w-full bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] hover:shadow-xl hover:shadow-[#C79A52]/40 text-white font-black py-5 rounded-2xl transition-all duration-300 text-lg uppercase tracking-wide hover:scale-[1.02]"
+        >
+          GARANTIR VAGA
+        </button>
+
+      </div>
+
     </div>
 
-          </div>
+  </div>
+
+</div>
         </div>
       </section>
 
