@@ -452,7 +452,6 @@ export default function IPGEExecutiveSummit() {
             <p className="text-white/80 text-lg mb-10 max-w-2xl mx-auto">Se você quer organizar a base da sua estratégia com solidez e profissionalismo, inscreva sua equipe agora.</p>
            
   <div className="max-w-7xl mx-auto px-6">
-    <h2 className="text-5xl font-black text-[#101C3D] mb-16 text-center">PARTICIPE</h2>
 
     <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
 
@@ -498,7 +497,7 @@ export default function IPGEExecutiveSummit() {
         <div className="flex items-start justify-between mb-10">
           <div>
             <p className="text-2xl md:text-3xl font-black text-[#101C3D]">1 Participante</p>
-            <span className="inline-block bg-[#C79A52] text-white px-6 py-2 rounded-full text-sm font-black mt-4 uppercase tracking-wide">Preço Base</span>
+            <span className="inline-block bg-[#C79A52] text-white px-6 py-2 rounded-full text-sm font-black mt-4 uppercase tracking-wide">Preço</span>
           </div>
         </div>
         <div className="mb-8 pb-8 border-b-2 border-[#C79A52]/20">
