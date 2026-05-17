@@ -452,7 +452,6 @@ export default function IPGEExecutiveSummit() {
             <p className="text-white/80 text-lg mb-10 max-w-2xl mx-auto">Se você quer organizar a base da sua estratégia com solidez e profissionalismo, inscreva sua equipe agora.</p>
            
   <div className="max-w-7xl mx-auto px-6">
-    <h2 className="text-5xl font-black text-[#101C3D] mb-16 text-center">PARTICIPE</h2>
 
     <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
 
