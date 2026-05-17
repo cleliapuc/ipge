@@ -465,7 +465,7 @@ export default function IPGEExecutiveSummit() {
           </div>
         </div>
         <div className="mb-8 pb-8 border-b-2 border-[#C79A52]/20">
-          <p className="text-sm text-slate-500 font-bold uppercase tracking-widest mb-2">Valor Total</p>
+          <p className="text-sm text-slate-500 font-bold uppercase tracking-widest mb-2">Preço Total</p>
           <p className="text-5xl font-black text-[#C79A52]">R$ 45,00</p>
           <p className="text-slate-600 text-sm mt-3">ou 4x R$ 12,25</p>
         </div>
