@@ -451,15 +451,36 @@ export default function IPGEExecutiveSummit() {
             <h3 className="text-4xl font-black mb-6">É Hora de Começar Sua Estratégia 2027</h3>
             <p className="text-white/80 text-lg mb-10 max-w-2xl mx-auto">Se você quer organizar a base da sua estratégia com solidez e profissionalismo, inscreva sua equipe agora.</p>
            
-           <button
-              onClick={() => {
-                const section = document.getElementById('modalidades');
-                section?.scrollIntoView({ behavior: 'smooth' });
-              }}
-              className="inline-block bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] hover:shadow-2xl hover:shadow-[#C79A52]/50 text-white font-black px-12 py-5 rounded-xl transition-all duration-300"
-            >
-              INSCREVER MINHA EQUIPE
-            </button>
+  <div className="max-w-7xl mx-auto px-6">
+    <h2 className="text-5xl font-black text-[#101C3D] mb-16 text-center">MODALIDADES DE PARTICIPAÇÃO</h2>
+
+    <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+
+      {/* 1 PARTICIPANTE - DESTAQUE */}
+      <div className="rounded-3xl p-10 border-3 border-[#C79A52] bg-gradient-to-br from-white to-[#FFF9F0] shadow-xl hover:shadow-2xl transition-all">
+        <div className="flex items-start justify-between mb-10">
+          <div>
+            <p className="text-2xl md:text-3xl font-black text-[#101C3D]">1 Participante</p>
+            <span className="inline-block bg-[#C79A52] text-white px-6 py-2 rounded-full text-sm font-black mt-4 uppercase tracking-wide">Preço Base</span>
+          </div>
+        </div>
+        <div className="mb-8 pb-8 border-b-2 border-[#C79A52]/20">
+          <p className="text-sm text-slate-500 font-bold uppercase tracking-widest mb-2">Valor Total</p>
+          <p className="text-5xl font-black text-[#C79A52]">R$ 45,00</p>
+          <p className="text-slate-600 text-sm mt-3">ou 4x R$ 12,25</p>
+        </div>
+        
+        <button 
+  onClick={() => window.open('https://go.hotmart.com/P105745942U', '_blank')}
+  className="w-full bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] hover:shadow-lg hover:shadow-[#C79A52]/50 text-white font-black py-4 rounded-2xl transition-all text-lg uppercase tracking-wide"
+>
+  GARANTIR VAGA
+</button>
+      </div>
+
+    </div>
+
+    </div>
 
           </div>
         </div>
