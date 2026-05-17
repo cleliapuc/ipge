@@ -365,7 +365,7 @@ export default function IPGEExecutiveSummit() {
       {/* SIDEBAR */}
       <div className="space-y-8">
 
-        <div className="hidden lg:block bg-gradient-to-br ;from-[#091A37] to-[#0D2550] text-white rounded-3xl p-6 md:p-8 shadow-2xl h-fit">
+        <div className="hidden lg:block bg-[#091A37] text-white rounded-3xl p-6 md:p-8 shadow-2xl h-fit">
 
           <h3 className="text-3xl font-black mb-8">
             Detalhes
@@ -595,8 +595,8 @@ export default function IPGEExecutiveSummit() {
                   </a>
                 ))}
               </div>
-            </div>
-          </div> */}
+            </div>*/}
+          </div> 
 
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 text-sm">
             <p>© 2026 IPGE — Todos os direitos reservados.</p>
