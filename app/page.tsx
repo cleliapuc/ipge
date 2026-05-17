@@ -586,7 +586,7 @@ export default function IPGEExecutiveSummit() {
               </ul>
             </div>
 
-            <div>
+            {/* <div>
               <p className="font-bold text-white mb-4 text-sm uppercase tracking-wide">Redes Sociais</p>
               <div className="flex gap-4 text-xl">
                 {['in', '◎', '▶'].map((icon) => (
@@ -596,7 +596,7 @@ export default function IPGEExecutiveSummit() {
                 ))}
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 text-sm">
             <p>© 2026 IPGE — Todos os direitos reservados.</p>
