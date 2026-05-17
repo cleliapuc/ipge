@@ -569,22 +569,86 @@ export default function IPGEExecutiveSummit() {
 
 
       {/* FOOTER */}
-      <footer className="bg-[#07152E] border-t border-white/10 py-16 text-white/60">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-3 gap-12 mb-12 pb-12 border-b border-white/10">
-            <div>
-              <h3 className="text-2xl font-black text-white mb-4">IPGE</h3>
-              <p className="text-sm leading-relaxed">Gestão Estratégica desde 1994. Transformando empresas através de estratégia, execução e governança.</p>
-            </div>
+     <footer className="bg-[#07152E] border-t border-white/10 py-16 text-white/60">
+  <div className="max-w-5xl mx-auto px-6">
 
-            <div>
-              <p className="font-bold text-white mb-4 text-sm uppercase tracking-wide">Links Rápidos</p>
-              <ul className="space-y-2 text-sm">
-                {['O Evento', 'Palestrantes', 'Ingressos', 'FAQ'].map((item) => (
-                  <li key={item}><a href="#" className="hover:text-[#C79A52] transition-colors">{item}</a></li>
-                ))}
-              </ul>
-            </div>
+    <div className="grid md:grid-cols-2 gap-16 mb-12 pb-12 border-b border-white/10 items-start">
+
+      {/* COLUNA ESQUERDA */}
+      <div>
+        <h3 className="text-2xl font-black text-white mb-4">
+          IPGE
+        </h3>
+
+        <p className="text-sm leading-relaxed max-w-md">
+          Gestão Estratégica desde 1994. Transformando empresas através de estratégia, execução e governança.
+        </p>
+      </div>
+
+      {/* COLUNA DIREITA */}
+      <div>
+        <p className="font-bold text-white mb-5 text-sm uppercase tracking-[0.2em]">
+          Links Rápidos
+        </p>
+
+        <ul className="space-y-3 text-sm">
+
+          <li>
+            <a
+              href="#evento"
+              className="hover:text-white transition-colors duration-300"
+            >
+              O Evento
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#palestrantes"
+              className="hover:text-white transition-colors duration-300"
+            >
+              Palestrantes
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#modalidades"
+              className="hover:text-white transition-colors duration-300"
+            >
+              Ingressos
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#faq"
+              className="hover:text-white transition-colors duration-300"
+            >
+              FAQ
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+
+    {/* BOTTOM */}
+    <div className="flex flex-col md:flex-row items-center justify-between gap-6 text-sm">
+
+      <p>
+        © 2026 IPGE — Todos os direitos reservados.
+      </p>
+
+      <p className="text-white/40">
+        Desenvolvido com ❤️ para líderes estratégicos
+      </p>
+
+    </div>
+
+  </div>
+</footer>
 
             {/* <div>
               <p className="font-bold text-white mb-4 text-sm uppercase tracking-wide">Redes Sociais</p>
@@ -597,13 +661,6 @@ export default function IPGEExecutiveSummit() {
               </div>
             </div>*/}
           </div> 
-
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6 text-sm">
-            <p>© 2026 IPGE — Todos os direitos reservados.</p>
-            <p>Desenvolvido com ❤️ para líderes estratégicos</p>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
