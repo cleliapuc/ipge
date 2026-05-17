@@ -566,39 +566,7 @@ export default function IPGEExecutiveSummit() {
         </div>
       </section>
 
-      {/* PRICING CARDS */}
-<section id="modalidades" className="py-24 bg-white">
-  <div className="max-w-7xl mx-auto px-6">
 
-
-    <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-
-      {/* 1 PARTICIPANTE - DESTAQUE */}
-      <div className="rounded-3xl p-10 border-3 border-[#C79A52] bg-gradient-to-br from-white to-[#FFF9F0] shadow-xl hover:shadow-2xl transition-all">
-        <div className="flex items-start justify-between mb-10">
-          <div>
-            <p className="text-2xl md:text-3xl font-black text-[#101C3D]">1 Participante</p>
-            <span className="inline-block bg-[#C79A52] text-white px-6 py-2 rounded-full text-sm font-black mt-4 uppercase tracking-wide">Preço Base</span>
-          </div>
-        </div>
-        <div className="mb-8 pb-8 border-b-2 border-[#C79A52]/20">
-          <p className="text-sm text-slate-500 font-bold uppercase tracking-widest mb-2">Valor Total</p>
-          <p className="text-5xl font-black text-[#C79A52]">R$ 45,00</p>
-          <p className="text-slate-600 text-sm mt-3">ou 4x R$ 12,25</p>
-        </div>
-        
-        <button 
-  onClick={() => window.open('https://go.hotmart.com/P105745942U', '_blank')}
-  className="w-full bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] hover:shadow-lg hover:shadow-[#C79A52]/50 text-white font-black py-4 rounded-2xl transition-all text-lg uppercase tracking-wide"
->
-  GARANTIR VAGA
-</button>
-      </div>
-
-    </div>
-
-    </div>
-</section>
 
       {/* FOOTER */}
       <footer className="bg-[#07152E] border-t border-white/10 py-16 text-white/60">
