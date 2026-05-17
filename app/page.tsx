@@ -187,15 +187,7 @@ export default function IPGEExecutiveSummit() {
 
               {/* CTA Buttons */}
               <div className="flex flex-wrap gap-4 pt-8">
-                <button
-                  onClick={() => {
-                    const section = document.getElementById('modalidades');
-                    section?.scrollIntoView({ behavior: 'smooth' });
-                  }}
-                  className="inline-block bg-gradient-to-r from-[#C79A52] to-[#D8AE6A] hover:shadow-2xl hover:shadow-[#C79A52]/50 text-white font-black px-12 py-5 rounded-xl transition-all duration-300"
-                >
-                GARANTIR MINHA VAGA
-                </button>
+               
 
                   <button
                   onClick={() => {
@@ -661,6 +653,5 @@ export default function IPGEExecutiveSummit() {
               </div>
             </div>*/}
           </div> 
-    </div>
   );
 }
