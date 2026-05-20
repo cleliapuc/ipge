@@ -1,5 +1,6 @@
 'use client';
 
+import { motion } from 'framer-motion'
 import { useState } from 'react';
 
 export default function IPGEExecutiveSummit() {
@@ -414,7 +415,13 @@ export default function IPGEExecutiveSummit() {
 </section>
 
       {/* REASONS */}
-      <section className="py-32 bg-gradient-to-b from-[#08152E] via-[#0F1F3D] to-[#08152E] text-white relative overflow-hidden">
+      <motion.section
+  initial={{ opacity: 0, y: 60 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.8 }}
+  className="py-32"
+>
         <div className="absolute inset-0 opacity-30">
           <div className="absolute top-1/2 left-1/4 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#C79A52]/10 rounded-full blur-3xl"></div>
@@ -554,8 +561,7 @@ export default function IPGEExecutiveSummit() {
 
 </div>
         </div>
-      </section>
-
+      </motion.section>
 
 
       {/* FOOTER */}
