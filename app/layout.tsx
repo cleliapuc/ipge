@@ -9,18 +9,18 @@ export const metadata: Metadata = {
   title: "Mapa Estratégico 2027 | IPGE",
 
   description:
-    "Webinar executivo sobre RH, Governança, Estratégia e Execução.",
+  "Webinar executivo do IPGE sobre estratégia, governança, execução organizacional, RH estratégico e planejamento empresarial para 2027.",
 
   openGraph: {
-    title: "Mapa Estratégico 2027 | IPGE",
+  title: "Mapa Estratégico 2027 | IPGE",
 
-    description:
-      "RH no centro da execução estratégica.",
+  description:
+  "Webinar executivo do IPGE sobre RH estratégico, governança, execução organizacional e planejamento empresarial para 2027.",
 
-    images: ["/og-image.jpg"],
+  images: ["/og-image.jpg"],
 
-    type: "website",
-  },
+  type: "website",
+},
 };
 
 export default function RootLayout({
