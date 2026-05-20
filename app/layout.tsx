@@ -3,10 +3,24 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 
+import type { Metadata } from "next";
+
 export const metadata: Metadata = {
-  title: "Roadmap do Planejamento Estratégico 2027 | IPGE",
+  title: "Mapa Estratégico 2027 | IPGE",
+
   description:
-    "Webinar executivo sobre estratégia, governança, budget e execução organizacional.",
+    "Webinar executivo sobre RH, Governança, Estratégia e Execução.",
+
+  openGraph: {
+    title: "Mapa Estratégico 2027 | IPGE",
+
+    description:
+      "RH no centro da execução estratégica.",
+
+    images: ["/og-image.jpg"],
+
+    type: "website",
+  },
 };
 
 export default function RootLayout({

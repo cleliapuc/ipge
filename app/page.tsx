@@ -187,8 +187,6 @@ export default function IPGEExecutiveSummit() {
 
               {/* CTA Buttons */}
               <div className="flex flex-wrap gap-4 pt-8">
-               
-
                   <button
                   onClick={() => {
                     const section = document.getElementById('programacao');
